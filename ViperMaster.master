@@ -1,0 +1,86 @@
+﻿<%@ Master Language="VB" CodeFile="ViperMaster.master.vb" Inherits="ViperMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Vipers Baseball</title>
+	<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/css/dropdown-menu.css" type="text/css" media="screen"/>
+     <link rel="stylesheet" href="~/css/login-box.css" type="text/css" media="screen"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Tom@Lwis (http://www.lwis.net/free-css-drop-down-menu/)" />
+<meta name="keywords" content=" css, dropdowns, dropdown menu, drop-down, menu, navigation, nav, horizontal, vertical left-to-right, vertical right-to-left, horizontal linear, horizontal upwards, cross browser, internet explorer, ie, firefox, safari, opera, browser, lwis" />
+<meta name="description" content="Clean, standards-friendly, modular framework for dropdown menus" />
+<link rel="shortcut icon" type="image/x-icon" href="css/dropdown/themes/vimeo.com/images/favicon.ico" />
+
+<!-- Beginning of compulsory code below -->
+
+<link href="~/css/dropdown/dropdown.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="~/css/dropdown/themes/vimeo.com/default.advanced.css" media="screen" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 7]>
+<script type="text/javascript" src="js/jquery/jquery.js"></script>
+<script type="text/javascript" src="js/jquery/jquery.dropdown.js"></script>
+<![endif]-->
+
+<!-- / END -->
+
+
+
+</head>
+   <body><form id="MasterPageForm" runat="server">
+   
+
+   <table width="100%">
+   <tr>
+   <td align="left">
+       <div id="master_header">
+            <div id="master_headertop">
+            <asp:Image runat="server" ID="HeaderImage" ImageUrl="~/images/vipersbanner.jpg" 
+                    AlternateText="Ajax Control Toolkit" />
+            </div>
+            <div id="master_headerbottom">
+           
+            <!--<h1><img src="images/vimeo.com/icon.png" alt="VIMEO.com" /> &amp; <img src="images/vimeo.com/logo_lwis.png" alt="LWIS.net" /> CSS Drop-Down Menu Theme</h1>
+
+<!-- Beginning of compulsory code below -->
+<table width="100%">
+<tr>
+<td>
+
+<ul id="navigation" class="nav-main" runat="server">
+	<li><a href="Default.aspx">Home</a></li>
+    
+    
+    
+   
+    <li><a href="LaneSchedule.aspx">Cage Rental</a></li>
+     <li><a href="http://www.chrisburkebaseball.com/" target="_blank">Professional Instruction</a></li>
+     <li><a href="ContactUs.aspx">Contact Us</a></li>
+    
+    
+
+</ul>
+
+<!-- / END -->
+</td>
+<td  align="right">
+   </td>
+</tr>
+</table>
+            </div>
+            </div>
+   </td>
+   </tr>
+   
+      
+   </table>      
+        
+            <asp:ContentPlaceHolder ID="SampleContent" runat="server" />
+           
+            
+     
+    </form></body>
+</html>
+
